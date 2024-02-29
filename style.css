@@ -10,7 +10,7 @@ h1{
 form{
     background-color: white;
     text-align:center;
-    max-width: 30%;
+    max-width: 300px;
     margin:auto;
     padding: 2%;
     border-radius: 15px;
@@ -24,6 +24,29 @@ form{
     border: 2px solid rgba(0, 0, 0, 0.808);
     border-radius: 4px;
     margin-bottom: 15px;
-    
+}
 
+label{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+button{
+    margin-top: 15px;
+    background-color: hsl(0, 100%, 61%);
+    color: white;
+    font-size: 1.5em;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(0, 100%, 51%);
+}
+
+#result{
+    font-size: 1.75em;
+    font-weight: bold;
 }
